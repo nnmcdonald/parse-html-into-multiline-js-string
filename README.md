@@ -11,7 +11,7 @@ NOTE: If the exact string "CREATE_NEW_LINE" appears in the HTML to be parsed THI
       with an unique identifier that does not appear in the HTML
 
 Just place the code you would like to parse into the div with id="parse"
-Then open the file in your browser, copy and paste text
+Then open the file in your browser
 
 This script uses single quotes in the generated multiline string, 
 to change to double quotes set:
