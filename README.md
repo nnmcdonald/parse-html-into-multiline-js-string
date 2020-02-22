@@ -1,8 +1,18 @@
 # parse-html-into-multiline-js-string
 HTML template for parsing html into javascript ES5 multiline string
 
-I found myself needing to create a multiline string from a lot of HTML for the purposes of dynamic
-form creation. It was necessary to create a multiline string that was compliant with ES5,
+I found myself needing to create a string on multiple lines from a lot of HTML for the purposes of dynamic
+form creation. For example:
+
+var html_as_string = "<form>"+
+"<ul>"+
+"<li>"+
+"<li>"+
+"</ul>"+
+"<form>";
+
+
+It was necessary to be compliant with ES5,
 therefore I created this template to display the parsed text in the browser.
 
 NOTE: If the exact string "CREATE_NEW_LINE" appears in the HTML to be parsed THIS WILL NOT WORK!
