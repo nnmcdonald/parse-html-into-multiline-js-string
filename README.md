@@ -5,11 +5,11 @@ I found myself needing to create a string on multiple lines from a lot of HTML f
 form creation. For example:
 
 var html_as_string = "<form>"+
-"<ul>"+
-"<li>"+
-"<li>"+
-"</ul>"+
-"<form>";
+"&ltul>"+
+"&ltli>"+
+"&ltli>"+
+"&lt/ul>"+
+"&ltform>";
 
 
 It was necessary to be compliant with ES5,
